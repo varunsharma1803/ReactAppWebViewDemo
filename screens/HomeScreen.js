@@ -6,7 +6,7 @@ const HomeScreen = ({ navigation }) => {
     <View style={styles.container}>
       <Button
         title="Message center"
-        onPress={() => {
+        onPress={() => {  
           // Open Salesforce URL in WebView
           navigation.navigate('WebViewScreen', { url: 'https://d2t000000ixrbeak-dev-ed.develop.my.site.com/testSite31Aug2023' });
         }}
