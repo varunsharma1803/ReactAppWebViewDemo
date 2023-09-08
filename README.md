@@ -19,3 +19,5 @@ Run this command in VS code Powershell terminal
 **expo install react-native-webview**
 
 **npm start**
+
+After server is started by executing npm start command, scan the QR code using **Expo Go** Android/iOS app. You need to be on same network.
